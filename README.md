@@ -17,6 +17,12 @@ Start the server
 npm start
 ```
 
+## Explanation
+
+When you set up a Twilio account, you will need to set up a webhook. 
+It should point at the the URL of this webserver, at the `/sms` route. 
+E.g. `https://888.44.44.555:3000/sms`
+
 ## Environment Variables
 
 You will need a [twilio account]() and its authentication details.
